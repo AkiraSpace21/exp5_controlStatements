@@ -1,8 +1,8 @@
-# ⚙️ Experiment 5 - Decision Making Statements
+# ⚙️ Experiment 5 -    Control statements
 
 ---
 
-## 🧪 Objective
+## 🎯  Aim
 To write and execute C++ programs demonstrating:
 - `if` statement
 - `if-else` statement
@@ -19,27 +19,28 @@ To write and execute C++ programs demonstrating:
 
 ---
 
-## 📂 Programs
+##Theory:Control statements in C++ are used to manage the flow of execution in a program. They allow the program to make decisions, repeat tasks, or jump to specific parts of the code based on certain conditions.  They are essential for implementing logic, repetition, and decision-making in C++ programs, making them more efficient and dynamic.
 
 ---
 
-### 🔹 Program 1: `if` Statement
+##📂 Programs
 
-#### 🎯 Aim:
-To check whether a number is positive.
+---
+
+### 🔹 Program 1: To find the largest of 3 numbers
 
 #### 🧠 Algorithm:
-1. Start
-2. Accept an integer from the user
-3. If the number > 0, print "Positive"
-4. End
+1.Start
+2.Input three numbers: a, b, c
+3.If all are equal → print "All numbers are equal"
+4.Else if a > b and a > c → print "a is the largest"
+5.Else if b > c → print "b is the largest"
+6.Else → print "c is the largest"
+7.End
 
 ---
 
-### 🔹 Program 2: `if-else` Statement
-
-#### 🎯 Aim:
-To check whether a number is even or odd.
+### 🔹 Program 2: To check whether a number is even or odd.
 
 #### 🧠 Algorithm:
 1. Start  
@@ -50,43 +51,41 @@ To check whether a number is even or odd.
 
 ---
 
-### 🔹 Program 3: `if-else-if` Ladder
-
-#### 🎯 Aim:
-To assign grades based on marks.
+### 🔹 Program 3: Number to week
 
 #### 🧠 Algorithm:
-1. Start  
-2. Accept marks from the user  
-3. If marks ≥ 90 → Grade A  
-4. Else if marks ≥ 75 → Grade B  
-5. Else if marks ≥ 60 → Grade C  
-6. Else if marks ≥ 40 → Grade D  
-7. Else → Fail  
-8. End
+Start
 
+Input number (num)
+
+Use switch(num) to match:
+
+1. 1 → Monday
+2. 2 → Tuesday
+3. 3 → Wednesday
+4. 4 → Thursday
+5. 5 → Friday
+6. 6 → Saturday
+7. 7 → Sunday
+8. default → Invalid input
+
+End
 ---
 
-### 🔹 Program 4: `nested if` Statement
-
-#### 🎯 Aim:
-To check if a number is positive, negative, or zero using nested conditions.
+### 🔹 Program 4: To check if a character is a vowel or consonent
 
 #### 🧠 Algorithm:
 1. Start  
-2. Accept an integer from user  
-3. If number ≥ 0  
-   - If number == 0 → Print "Zero"  
-   - Else → Print "Positive"  
-4. Else → Print "Negative"  
+2. Accept a character from user  
+3. If character is equal to a,e,i,o,u or A,E,I,O,U 
+   - character is vowel  
+   - Else
+   - is a consonent  
 5. End
 
 ---
 
-### 🔹 Program 5: `switch-case` Statement
-
-#### 🎯 Aim:
-To perform basic arithmetic operations using a switch-case.
+### 🔹 Program 5: To perform basic arithmetic operations using a switch-case.
 
 #### 🧠 Algorithm:
 1. Start  

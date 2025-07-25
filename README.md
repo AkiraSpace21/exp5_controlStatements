@@ -19,7 +19,8 @@ To write and execute C++ programs demonstrating:
 
 ---
 
-##Theory:Control statements in C++ are used to manage the flow of execution in a program. They allow the program to make decisions, repeat tasks, or jump to specific parts of the code based on certain conditions.  They are essential for implementing logic, repetition, and decision-making in C++ programs, making them more efficient and dynamic.
+## Theory:
+Control statements in C++ are used to manage the flow of execution in a program. They allow the program to make decisions, repeat tasks, or jump to specific parts of the code based on certain conditions.  They are essential for implementing logic, repetition, and decision-making in C++ programs, making them more efficient and dynamic.
 
 ---
 

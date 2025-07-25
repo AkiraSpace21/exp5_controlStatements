@@ -2,17 +2,36 @@
 using namespace std;
 
 int main() {
-float a, b;
-int x;
-cout<<"1 for addition , 2 for subtraction , 3 for multiplication , 4 for division\n";
-cin>>x;
-cout<<" enter number a and b: ";
-cin>>a>>b;
-switch(x){
-    case 1:cout<<a+b;break;
-    case 2:cout<<a-b;break;
-    case 3:cout<<a*b;break;
-    case 4:cout<<a/b;break;
-}
+    float num1, num2;
+    int choice;
+
+    cout << "Choose an operation:\n";
+    cout << "1 - Addition\n2 - Subtraction\n3 - Multiplication\n4 - Division\n";
+    cin >> choice;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    switch (choice) {
+        case 1:
+            cout << "Result: " << num1 + num2;
+            break;
+        case 2:
+            cout <<"Result: " << num1 - num2;
+            break;
+        case 3:
+            cout<< "Result: " << num1 * num2;
+            break;
+        case 4:
+            if (num2 != 0)
+                cout<< "Result: " << num1 / num2;
+            else
+                cout<< "Error: Division by zero!";
+            break;
+        default:
+            cout << "Invalid choice!";
+    }
 
     return 0;
+}
+

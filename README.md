@@ -1,100 +1,109 @@
-# 💡 C++ Experiment 5: Decision Making (If, If-Else, Nested If)
+# ⚙️ Experiment 5 - Decision Making Statements
 
 ---
 
-## 🎯 Aim
-
-To write C++ programs that demonstrate **basic decision-making constructs** like:
-
-* `if` statements
-* `if-else` statements
-* `else-if` ladder
-* `nested if` conditions
-* Using conditions to perform logical comparisons
+## 🧪 Objective
+To write and execute C++ programs demonstrating:
+- `if` statement
+- `if-else` statement
+- `if-else-if` ladder
+- `nested if`
+- `switch-case`
 
 ---
 
-## 🧠 Objectives
-
-* Learn how to use conditional statements in C++
-* Understand branching logic to control program flow
-* Handle different user inputs to produce expected outcomes
-* Build clean and readable logic through stepwise comparisons
-* Improve understanding of syntax and logic in real-world scenarios
+## 🛠️ Tools & Technologies
+- Programming Language: **C++**
+- IDE: **Visual Studio Code**
+- Compiler: **g++**
 
 ---
 
-## 🛠 Tools Used
-
-* **Programming Language**: C++
-* **Compiler**: g++ (GNU Compiler Collection)
-* **Editor/IDE**: Visual Studio Code
-* **Operating System**: Windows 10
+## 📂 Programs
 
 ---
 
-## 📘 Programs & Algorithms
+### 🔹 Program 1: `if` Statement
+
+#### 🎯 Aim:
+To check whether a number is positive.
+
+#### 🧠 Algorithm:
+1. Start
+2. Accept an integer from the user
+3. If the number > 0, print "Positive"
+4. End
 
 ---
 
-### ✅ 1. Check Whether Number is Positive or Negative
+### 🔹 Program 2: `if-else` Statement
 
-#### 🔁 Steps:
+#### 🎯 Aim:
+To check whether a number is even or odd.
 
-1. Start the program
-2. Ask the user to enter a number
-3. If the number is greater than 0 → print **positive**
-4. Else if it is less than 0 → print **negative**
-5. If neither, then print **zero**
-6. End the program
-
----
-
-### ✅ 2. Check Whether a Number is Even or Odd
-
-#### 🔁 Steps:
-
-1. Start the program
-2. Ask user to input a number
-3. Use modulo: `number % 2 == 0`
-4. If true → print **Even**, else → print **Odd**
+#### 🧠 Algorithm:
+1. Start  
+2. Accept an integer  
+3. If number % 2 == 0 → Print "Even"  
+4. Else → Print "Odd"  
+5. End
 
 ---
 
-### ✅ 3. Check Whether a Person is Eligible to Vote
+### 🔹 Program 3: `if-else-if` Ladder
 
-#### 🔁 Steps:
+#### 🎯 Aim:
+To assign grades based on marks.
 
-1. Start the program
-2. Take age as input from the user
-3. If age ≥ 18 → print **eligible**
-4. Else → print **not eligible**
-
----
-
-### ✅ 4. Find the Largest Among Two Numbers
-
-#### 🔁 Steps:
-
-1. Start the program
-2. Input two numbers
-3. Compare them using `if-else`
-4. Print the larger number
+#### 🧠 Algorithm:
+1. Start  
+2. Accept marks from the user  
+3. If marks ≥ 90 → Grade A  
+4. Else if marks ≥ 75 → Grade B  
+5. Else if marks ≥ 60 → Grade C  
+6. Else if marks ≥ 40 → Grade D  
+7. Else → Fail  
+8. End
 
 ---
 
-### ✅ 5. Find the Greatest Among Three Numbers
+### 🔹 Program 4: `nested if` Statement
 
-#### 🔁 Steps:
+#### 🎯 Aim:
+To check if a number is positive, negative, or zero using nested conditions.
 
-1. Start the program
-2. Input three numbers
-3. Use `if-else-if` ladder or nested `if` statements
-4. Compare each condition to find the greatest
-5. Print the greatest number
+#### 🧠 Algorithm:
+1. Start  
+2. Accept an integer from user  
+3. If number ≥ 0  
+   - If number == 0 → Print "Zero"  
+   - Else → Print "Positive"  
+4. Else → Print "Negative"  
+5. End
 
 ---
 
-## 📄 Conclusion
+### 🔹 Program 5: `switch-case` Statement
 
-Through this experiment, we successfully learned how to use **decision-making statements** in C++ to make a program respond differently under different inputs. These constructs are **fundamental to logic building** in programming.
+#### 🎯 Aim:
+To perform basic arithmetic operations using a switch-case.
+
+#### 🧠 Algorithm:
+1. Start  
+2. Accept two numbers and an operator (+, -, *, /)  
+3. Use switch:
+   - Case '+' → Add  
+   - Case '-' → Subtract  
+   - Case '*' → Multiply  
+   - Case '/' → Divide (check if denominator ≠ 0)  
+   - Default → Invalid Operator  
+4. End
+
+---
+
+## ✅ Conclusion
+- Gained hands-on experience with all decision-making statements in C++.  
+- Understood when and where to use `if`, `if-else`, `if-else-if`, `nested if`, and `switch-case` constructs.  
+- Learned how flow control works based on conditions.
+
+---
